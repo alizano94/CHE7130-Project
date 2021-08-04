@@ -1,0 +1,10 @@
+[0.0019135134567086175]
+[0.00019422222571788774]
+1.8795858658867593e-05
+---
+Species: molecule
+---
+Segment     0:         Diffusion Coefficient = 0.0001879586 Å^2/fs; Intercept = -0.0140752059 Å^2;
+---
+Mean Diffusion Coefficient (X, Y and Z) : molecule = 0.0001879586 Å^2/fs; Std. Dev. = 0.0000190779 Å^2/fs
+---

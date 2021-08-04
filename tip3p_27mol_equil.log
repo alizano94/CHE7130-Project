@@ -1,4 +1,4 @@
-Time[ps]      Etot[eV]     Epot[eV]     Ekin[eV]    T[K]
+#Time[ps]      Etot[eV]     Epot[eV]     Ekin[eV]    T[K]
 0.0000           5.4819       5.4819       0.0000     0.0
 0.0010           5.4866       5.4819       0.0047     0.7
 0.0020           5.4901       5.4819       0.0083     1.2

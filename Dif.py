@@ -12,9 +12,10 @@ from ase.md.analysis import DiffusionCoefficient
 
 
 traj = Trajectory('O2_WB_EMT_4mol_27mol_equil-2.traj')
-dif = DiffusionCoefficient(traj,1 * units.fs,molecule=True)
+O2_indices = [81,82,83,84,85,86,87,88]
+dif = DiffusionCoefficient(traj,1 * units.fs,atom_indices=O2_indices,molecule=True)
 
-dif.calculate(ignore_n_images=2000, number_of_segments=10)
+dif.calculate(ignore_n_images=4500, number_of_segments=1)
 
 D,std = dif.get_diffusion_coefficients()
 
@@ -25,4 +26,5 @@ d = D[0] *units.fs /10
 
 print(d)
 
+dif.print_data()
 dif.plot(show=True)
